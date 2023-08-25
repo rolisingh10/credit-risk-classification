@@ -20,5 +20,5 @@ In this section, describe the analysis you completed for the machine learning mo
 
 ## Summary
 
-* The logistic regression model that we have used is pretty accurate at predicting the laon status of borrowers. it has a high accuracy rate and precision scores are good too.
+* The logistic regression model that we have used is pretty accurate at predicting the loan status of borrowers. It has a high accuracy rate and precision scores are good too.
 
