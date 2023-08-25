@@ -3,23 +3,22 @@
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
-* The purpose of analysis is predict the the risk of giving loan.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+* The purpose of analysis is predict the risk of giving loan.
+* The dataset has the fields of loan_size,	interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks,	total_debt and	loan_status.
+* We have to predict the loan status of borrowers, with 0 being 'healthy loan' and 1 being 'high rosk loan.
+* The features and lables were identified and they were separated as X and y, then the data was split into test and train. A logistic regression model was fitted by using the training data.
+* Then the predictions were saved  on the testing data labels by using the testing feature data (X_test) and the fitted model.
+* After that the model"s performance was evaluated using confusion matrix and accuracy score.
+* In the end, classifiaction report was printed
+  
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
-
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+* The accuracy score of the model is 0.9918489475856377 which is high.
+* The precision score for 0 is .997 almost 1 and recall score is .99.
+* The precision score for 1 is .85 and recall score is .91
 
 ## Summary
+
+* The logistic regression model that we have used is pretty accurate at predicting the laon status of borrowers. it has a high accuracy rate and precision scores are good too.
 
